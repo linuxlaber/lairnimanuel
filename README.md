@@ -5,9 +5,3 @@ This is a demo app. Although it looks complete, I am still planning on adding al
 Version 1.0 New Features: (Current)
 The very first program. No new features for now. However, this is the very first program I uploaded on Github so I was very happy.
 
-Version 1.1 New Features: (Soon)
-Added 7 satellite navigation orbits tracing.
-Added talking AI based on data's gathered from the next word.
-
-Version 1.2 New Features (Soon)
-My very own shortest path optimizer based on the data about all possible routes. You will choose a path say from A to B. That path will be stored and then the app will choose all possible routes and pick shortest distance
