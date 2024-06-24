@@ -17,7 +17,7 @@ void openLink(const string& command) { //Copy pasted from stackoverflow xD
 
 int main() {
     cout << "\n\n\n--------------------------------------------------------------------------------------------------------------------\n\n";
-    cout << "xx             xxxxxxx         xxxxxxx         xxxxxxxxxx \n";
+    cout << "xx             xxxxxxx         xxxxxxx         xxxg++xxxxxxx \n";
     cout << "xx            xxxx  xxxx         xx           xxxx     xxxx \n";
     cout << "xx           xxxx xx xxxx        xx          xxxx      xxxx \n";
     cout << "xx          xxxx      xxxx       xx         xxxxxxxxxxxxxxx \n";
@@ -31,7 +31,8 @@ int main() {
     string c = "https://docs.google.com/document/d/1hxez_PXEoNnuQVyn1wZCgT90wxiuxHkLY0eWcUcnLFA/edit?usp=sharing";
     string d = "https://docs.google.com/document/d/1sF1Y_gmho-S0_t0XzfTxxxXP-Tr6klPCUzL2VIydIbI/edit?usp=sharing";
     string e = "https://www.youtube.com/channel/UCK3PXYE21t2EN37sX0DKE0w";
-    string f = "https://chance-frames.000webhostapp.com/login.php";
+    string f = "https://manuel2150.wordpress.com/programming-resources/?preview_id=412&preview_nonce=069c4a3159&preview=true";
+    string g = "https://manuel2150.wordpress.com/guide/";
 
 
     cout << "Enter the letter of your choice:\n";
@@ -40,7 +41,8 @@ int main() {
     cout << "c for Data Science Projects\n";
     cout << "d for Programming Projects\n";
     cout << "e for YouTube Tutorials by me\n";
-    cout << "f for Programming tutorials \n";
+    cout << "f for Programming Resources \n";
+    cout << "g for Get Started at Tech \n";
     cout << "q to Quit\n";
 
     char x;
@@ -65,8 +67,12 @@ int main() {
             break;
         case 'e':
             openLink(e);
+            break;
         case 'f':
             openLink(f);
+            break;
+        case 'g':
+            openLink(g);
             break;
         case 'q':
             running = false;
@@ -81,3 +87,4 @@ int main() {
 
     return 0;
 }
+
